@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Orchestral Samnium</title>
+  <link rel="stylesheet" href="personalizzazione.css?v3" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="slideshow.js" defer></script>
+</head>
+<body id="top">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+  	<a href="#top"><i class="fa-solid fa-house"></i><span class="label">Home</span></a>
+    
+    <a href="#chi-siamo"><i class="fa-solid fa-user"></i><span class="label">Chi siamo</span></a>
+    <a href="#repertorio"><i class="fa-solid fa-folder-open"></i><span class="label">Repertorio</span></a>
+    
+    <a href="https://www.youtube.com/watch?v=aZiLZc2tSbA" target="_blank" class="external-link">
+  <i class="fab fa-youtube"></i>
+  <span class="label">YouTube - Demo</span>
+</a>
+    
+    <a href="https://www.instagram.com/NOME_DEL_PROFILO" target="_blank"><i class="fab fa-instagram"></i><span class="label">Instagram</span></a>
+    <a href="#manifesto"><i class="fa-solid fa-scroll"></i><span class="label">Manifesto</span></a>
+	<a href="#foto"><i class="fa-solid fa-camera-retro"></i><span class="label">Foto</span></a>
+	<a href="#eventi"><i class="fa-solid fa-calendar-days"></i><span class="label">Eventi</span></a>
+    
+  </div>
+
+  <!-- Contenuto principale -->
+  <div class="main-content">
+
+    <!-- Header con video -->
+    <div class="header">
+      <img src="img/header-banner2.jpg" alt="Header Image" class="header-image">
+      <div class="fullscreen-video-container">
+        <video id="fullscreenVideo" autoplay muted loop playsinline>
+          <source src="video/prova.mp4" type="video/mp4">
+          Il tuo browser non supporta il video.
+        </video>
+        <button id="muteButton">
+          <i class="fas fa-volume-mute"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Sezione Manifesto + Slideshow + Eventi --!>
+    <div class="row">
+
+      <!-- Lato sinistro -->
+     <!--<div class="side" style="text-align: center;">--!>
+     
+<div class="side" id="manifesto" style="text-align: center;">
+     
+        <h1>Manifesto</h1>
+        <h3>La nostra locandina:</h3><br>
+        <img src="img/locandina5.jpg" alt="Locandina">
+        <h2><br>Qualcosa di noi</h2><br>
+        <h3 style="text-align: justify;">
+          Professionisti di provata esperienza, creativi nell'arrangiamento ed esecuzione di brani conosciuti, partiture e componimento di nuovi brani musicali, jingle, sigle, scrittura di testi.<br><br>
+          Il gruppo si avvale di un team worker per il contenuto editoriale-marketing e di agenzie per la promozione del gruppo in ambito di eventi pubblici e privati.
+        </h3>
+      </div>
+
+      <!-- Parte centrale slideshow --!>
+      <!-- <div class="main">--!>
+      <div class="main" id="foto">
+        <br>
+        <h1 style="text-align: center;">Foto</h1>
+        <h3 style="text-align: center;">Prove e Backstage</h3><br>
+        <div class="slideshow-container">
+          <img class="slide active" src="img/foto1.jpg" alt="Foto 1" />
+          <img class="slide" src="img/foto2.jpg" alt="Foto 2" />
+          <img class="slide" src="img/foto3.jpg" alt="Foto 3" />
+          <img class="slide" src="img/foto4.jpg" alt="Foto 4" />
+          <button id="prev">&#10094;</button>
+          <button id="next">&#10095;</button>
+        </div>
+        <h2 style="text-align: center; margin-top: 40px;">
+    Progetto patrocinato da: 
+  </h2><br>
+  <div style="text-align: center;">
+    <img src="img/proloco4.jpg" alt="Pro Loco" ><br>
+    <a href="https://www.instagram.com/prolocodibeneventosamnium?igsh=MWxteXlicXhxOHQydA==" target="_blank"style="color: #000;"><i class="fab fa-instagram"></i><span class="label"> Instagram</span></a>
+  </div>
+      </div>
+
+      <!-- Lato destro --!>
+      <!-- <div class="side" style="text-align: center;">--!>
+      
+<div class="side" id="eventi" style="text-align: center;">
+      
+        <!--<h2>Progetto in collaborazione con:<br> Proloco Samnium Benevento</h2><br>--!>
+        <!--<img src="img/proloco.jpg" alt="Pro Loco">--!>
+        
+        <h1>Eventi</h1><br>
+        <h3>Serata "AMICO MIO" 25/03/2025<br>
+          Memorial Dario Dell'Oste<br>
+          Teatro Comunale Benevento, a cura di Francesco Tuzio e Enzo De Rosa</h3>
+        <a href="https://www.youtube.com/watch?v=Tn8Mc39IvMc" target="_blank">
+          <i class="fab fa-youtube"></i> YouTube
+        </a><br><br>
+        <hr class="event-separator">
+        <br><br><h3>FESTEGGIAMENTI PER SANT'ANNA 26/07/2025<br>
+        Contrada S. Anna - Cerreto Sannita (BN) - inizio ore 22,00
+       </h3><br>
+        <img src="img/ecentoCerreto2.jpg" alt="evento Cerreto">
+      
+<br><br>
+        <hr class="event-separator">
+         <br><br><h3>FESTEGGIAMENTI SS. ADDOLORATA 14/09/2025<br>
+        Rione Libertà (BN) - inizio ore 21,00
+    </div>
+    </div>
+
+    <!-- Musicisti e Vocalist --!>
+    <main class="main" id="chi-siamo" style="animation-delay: 30s;">
+
+      <!-- Musicisti --!>
+      <div>
+        <h1 style="text-align: center; padding-top: 10px;">Musicisti</h1>
+      </div>
+      <div class="main-noside-container">
+        <div class="person-box">
+          <img src="img/francesco.jpg" alt="Francesco Agozzino">
+          <h3>FRANCO AGOZZINO</h3><br>
+          <h4 style="text-align: justify;">Musica e Magia: studi classici di pianoforte e armonia e stage di prestidigitazione, 
+      si esibisce con prestigiatori affermati.<br>Musicalmente con i WONTED, poi con L'IDEA un 45 giri, un tour 
+      con orchestra spettacolo e con i NEW FREEMAN con cui registra negli studi di Gianni Boncompagni album destinati al mercato estero.
+      Con il gruppo BENEVENTO CENTRALE un CD di musica inedita "Tarantella Beneventana" è il brano di cui è autore e arrangiamenti in altri.<br>
+      Primo posto a "Salerno Magica", fonda nel 2006 con Arnaldo Carletti il club Magico IL NOCE.</h4>
+        </div>
+        <div class="person-box">
+          <img src="img/marianna.jpg" alt="Maria Anna Principe">
+          <h3>MARIA ANNA PRINCIPE</h3><br>
+          <h4 style="text-align: justify;">Laureata in Filologia Moderna-Umanistica Digitale, studia la batteria dall'età di 12 anni. 
+      <br>Per due anni frequenta la LIZARD ACCADEMIE MUSICALI presso la sede di Benevento.<br> Non ha mai perso la passione per la
+      musica e per lo strumento continuando poi a perfezionarsi insieme a batteristi di nota esperienza.<br>Continua a dedicarvisi 
+      tutt'oggi con rinnovata passione seguendo la tradizione familiare da ben tre generazioni, attualmente insieme al papà Lello e sua zia Elvira.</h4>
+        </div>
+        <div class="person-box">
+          <img src="img/lello.jpg" alt="Lello Principe">
+          <h3>LELLO PRINCIPE</h3><br>
+          <h4 style="text-align: justify;">Fondatore della NEW ORCHESTRAL SAMNIUM. Dottore in TRSM, suona il basso da autodidatta, dapprima nel gruppo "I COBRA", poi K-STUDIO e BENEVENTO CENTRALE.<br> In tour dall'84 all'87 con artisti
+      anni '60. Corista con Vittorio De Scalzi dei NEW TROLLS. Partecipa a incisioni di dischi, l'ultimo è il CD di "BENEVENTO CENTRALE" con Francesco Agozzino, il quale è autore
+      della musica di "Tarantella Beneventana", ne ha curato gli arrangiamenti insieme all'amico Franco.</h4>
+        </div>
+        <div class="person-box">
+          <img src="img/alfonso1.jpg" alt="Alfonso Zeoli">
+          <h3>ALFONSO ZEOLI</h3><br>
+          <h4 style="text-align: justify;">Dal conservatorio alla cattedra in Educazione Musicale, inizia la carriera 
+di turnista in qualità di chitarrista in tour nazionali al seguto di artisti famosi del panorama 
+musicale italiano.<br>Da sempre chitarrista in numerosi gruppi musicali come musicista indipendente.<br> Attualmente 
+si esibisce negli eventi che riguardano la NEW ORCHESTRAL SAMNIUM. </h4>
+        </div>
+      </div>
+
+      <!-- Vocalist --!>
+      <div>
+        <h1 style="text-align: center;">Vocalist</h1>
+      </div>
+      <div class="main-noside-container">
+        <div class="person-box">
+          <img src="img/annarita.jpg" alt="Annarita Fasulo">
+          <h3>ANNARITA FASULO</h3><br>
+          <h4 style="text-align: justify;">i diploma come geometra, ma intanto studia in privato fisarmonica. Collabora negli anni come corista e solista accompagnando artisti famosi del panorama musicale nazionale.<br>Appassionata dei classici 
+      napoletani, si laurea con lode in Canto Classico Napoletano presso il Conservatorio di Benevento dove partecipa a numerosi concerti e incide diversi CD di brani napoletani editi, sia come solista che come 
+      corista.Segue allivi nel canto, oggi è voce nella NEW ORCHESTRAL SAMNIUM.</h4>
+        </div>
+        <div class="person-box">
+          <img src="img/massimiliano.jpg" alt="Massimiliano Lombardi">
+          <h3>MAX LOMBARDI</h3><br>
+          <h4 style="text-align: justify;">Massimiliano ma per gli amici “MAX”. Finalista a Sanremo giovani nel 1982, canto pop,rock,latino ecc.<br>Front-man in vari gruppi musicali, innumerevoli serate da metà stivale in giù con 
+      discreto successo.<br>Insomma gavetta a morire per ritrovarmi poi nel mondo del mitico Vasco Rossi nei suoi panni nella Cover-band. Ho avuto poi anche il privilegio di potermi esibire proprio al fianco dei
+      musicisti di Vasco.<br>
+      Oggi canto con la NEW ORCHESTRAL SAMNIUM, miei vecchi amici. Vi aspetto…</h4>
+        </div>
+        <div class="person-box">
+          <img src="img/elvira.jpg" alt="Elvira Principe">
+          <h3>ELVIRA PRINCIPE</h3><br>
+          <h4 style="text-align: justify;">Dal Conservatorio alla cattedra in Educazione Musicale, si è occupata negli anni di direzione di coro 
+      polifonico monodico e concertato, direzione di formazioni strumentali, direzione 
+      artistica e/o regia di spettacoli musicali e teatrali.<br> 
+      La sua carriera personale in canto, vanta esperienze nel genere lirico,
+      pop, rock, jazz.<br> I suoi strumenti musicali sono pianoforte e tastiere.<br> Un tour con il gruppo "Milk and Coffee",
+       continua oggi insieme al fratello Lello e sua nipote Maria Anna nella NEW ORCHESTRAL SAMNIUM.</h4>
+        </div>
+      </div>
+      
+     <section class="main" id="repertorio" style="animation-delay: 60s;">
+  <div>
+    <h1 style="text-align: center; padding-top: 10px;">Repertorio</h1>
+    
+  </div>
+  
+  <audio id="demoAudio" loop preload="auto">
+  <source src="demoAudio/demo.mp3" type="audio/mp3">
+  Il tuo browser non supporta l'audio HTML5.
+</audio>
+
+<button id="playDemoBtn">🎵 Ascolta uno dei brani</button>
+
+
+  <div class="main-noside-container">
+    <div class="repertorio-box">
+      <h2>Pop Italiano e Internazionale</h2><br>
+      <h3 style="text-align: left;">
+        Another Day In Paradise (P. Collins)<br>
+        The Best (T. Turner)<br>
+		Dimenticarsi alle 7 (Elodie)<br>
+		Anema e core (S. Brancale)<br>
+		Primavera (M. Rei)<br>
+		Pazza (L. Bertè)<br>
+		Rossetto e caffè (S. Da Vinci)<br>
+		Ascolta L’Infinito (F. Mannoia)<br>
+		Vita (L. Dalla-G. Morandi)<br>
+		Questione di sopravvivenza (G. Paoli)<br>
+		Cercami (R. Zero)<br>
+		Magari (R. Zero)<br>
+		Vivere (V. Rossi)<br>
+		Un Senso (V. Rossi)<br>
+		Senza pietà (A. Oxa)<br>
+      </h3>
+    </div>
+    
+     <div class="repertorio-box">
+      <h2>Napoli ieri e oggi</h2><br>
+      <h3 style="text-align: justify;">
+        Passione Eterna (V. Stella)<br>
+		Mente cuore (N. D’Angelo)<br>
+		Napule (D’Alessio-Finizio-Da Vinci-Dalla)<br>
+		Chiammame (E. De Crescenzo)<br>
+		Perzone Perzone (Scugnizzi)<br>
+		Anema e core (R. Murolo)<br>
+		Indifferentemente (Abbate-Trevi)<br>
+		Na canzuncella Doce Doce (R. Carosone)<br>
+		Torero (R. Carosone)<br>
+		Quann chiove (P. Daniele)<br>
+		Voglia e turnà (T. De Sio)<br>
+
+      </h3>
+    </div>
+  </div>
+</main>
+      
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-col left">
+        <h2><br>Contatti</h2>
+        <p>e-mail: <a href="mailto:principelello.lp@gmail.com" style="color:#f1f1f1;">principelello.lp@gmail.com</a></p>
+        <p>telefono: <a href="tel:+39328376988" style="color:#f1f1f1;">+39 328 376 988</a></p>
+      </div>
+      <div class="footer-col right">
+        <p><br>Website Designer and Developer:<br> Dr. Eng. Stefania Laganà</p>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
