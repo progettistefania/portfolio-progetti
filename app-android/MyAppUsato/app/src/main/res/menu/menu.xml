@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/add_annuncio"
+        android:id="@+id/add_annuncio"/>
+    <item
+        android:id="@+id/orders"
+        android:title="@string/orders"/>
+    <item
+        android:id="@+id/my_announcement"
+        android:title="@string/my_announcement"/>
+
+    <item
+        android:id="@+id/filter"
+        android:title="@string/filter">
+
+        <menu>
+
+            <item
+                android:id="@+id/price_all"
+                android:title="@string/all_prices"/>
+
+            <item
+                android:id="@+id/price_20"
+                android:title="@string/less_than_20"/>
+            <item
+                android:id="@+id/price_50"
+                android:title="@string/up_to_50"/>
+            <item
+                android:id="@+id/price_100"
+                android:title="@string/up_to_100"/>
+            <item
+                android:id="@+id/price_200"
+                android:title="@string/up_to_200"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/filter_restore"
+        android:title="@string/restore_filter"/>
+
+    <item
+        android:id="@+id/log_out"
+        android:title="@string/log_out"/>
+</menu>

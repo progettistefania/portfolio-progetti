@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "56459927632",
+    "project_id": "my-app-usato-8b2d9",
+    "storage_bucket": "my-app-usato-8b2d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56459927632:android:be681c87502aadc3dcf155",
+        "android_client_info": {
+          "package_name": "com.example.myappusato"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56459927632-45qine5u7i7gg3iabg750rkgvfr9rld1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4pli9JDweiZ5g-1zl11L3by6lAzeB0bw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56459927632-45qine5u7i7gg3iabg750rkgvfr9rld1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

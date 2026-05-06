@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My App Usato</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sing_up">Sign Up</string>
+    <string name="log_out">Log Out</string>
+    <string name="already">Don\'t have an account ?</string>
+    <string name="signup"><u>Sign up</u></string>
+    <string name="full_name">Full name</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="missing_field">Missing field</string>
+    <string name="add_annuncio">Add announcement</string>
+    <string name="orders">Orders</string>
+    <string name="my_announcement">My announcement</string>
+    <string name="buy">Buy</string>
+    <string name="title">Title</string>
+    <string name="price">Price</string>
+    <string name="tags">Tags</string>
+    <string name="description">Description</string>
+    <string name="photo">Upload a photo</string>
+    <string name="add_tag">Add tag</string>
+    <string name="add_tags">Add tags</string>
+    <string name="filter">Filter by price</string>
+    <string name="all_prices">All prices</string>
+    <string name="less_than_20">Up to 20 EUR</string>
+    <string name="up_to_50">20 to 50 EUR</string>
+    <string name="up_to_100">50 to 100 EUR</string>
+    <string name="up_to_200">100 EUR and more</string>
+    <string name="restore_filter">Restore filter</string>
+    <string name="insert">Insert</string>
+    <string name="done">Done it</string>
+</resources>
